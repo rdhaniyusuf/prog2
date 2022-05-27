@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+opencv-contrib-python = "*"
+tensorflow = "*"
+joblib = "*"
+
+[dev-packages]
+autopep8 = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
